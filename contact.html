@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra-Collections</title>
+    <!-- Google font for Nostra -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Poppins:ital,wght@0,100;1,500&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- My Style -->
+    <link rel="stylesheet" href="./contact.css">
+</head>
+<body>
+    <!-- Sale Offer -->
+    <div class="offer__text" id="offer">
+        Sign Up and GET 20% OFF for your first order <span class="close__button">X</span>
+    </div>
+
+    <!-- Nav Bar -->
+    <div class="navbar">
+        <div class="navbar__s1">
+            <h1 class="s1__title">Nostra</h1>
+        </div>
+        <div class="navbar__s2">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.html#new-arrival" id="new-arrival-link">New Arrivals</a></li>
+                <li><a href="./index.html#most-wanted" id="must-wanted-link">Most Wanted</a></li>
+                <li><a href="./collections.html">Collections</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="navbar-menu-toggle">
+            <i id="side-navbar-activate" class="fa-solid fa-bars" style="color: #010813;"></i>
+       </div>
+    </div>
+
+    <!-- Side Navigation -->
+    <div id="side-nav" class="side-nav">
+      <a href="#" class="close-btn" id="side-navbar-close">&times;</a>
+      <a href="./index.html">Home</a>
+      <a href="./index.html#new-arrival">New Arrivals</a>
+      <a href="./index.html#most-wanted">Most Wanted</a>
+      <a href="./collections.html">Collections</a>
+      <a href="./contact.html">Contact Us</a>
+      </div>
+      </div>
+
+    <!--contact form-->
+<div class="container">
+    <div class="row header">
+      <h1 style="color: white;">CONTACT US &nbsp;</h1>
+      <h3 style="color: white;">Fill out the form below to learn more!</h3>
+    </div>
+    <div class="row body">
+      <form action="#">
+        <ul>
+          
+          <li>
+            <p class="left">
+              <label for="first_name">first name</label>
+              <input type="text" name="first_name" placeholder="Ameer" />
+            </p>
+            <p class="pull-right">
+              <label for="last_name">last name</label>
+              <input type="text" name="last_name" placeholder="Siddika" />      
+            </p>
+          </li>
+          
+          <li>
+            <p>
+              <label for="email">email <span class="req">*</span></label>
+              <input type="email" name="email" placeholder="ameersiddi13@gmail.com" />
+            </p>
+          </li>        
+          <li><div class="divider"></div></li>
+          <li>
+            <label for="comments">Messagesz</label>
+            <textarea cols="46" rows="3" name="comments"></textarea>
+          </li>
+          
+          <li style="cursor: pointer;">
+            <input class="btn btn-submit" type="submit" value="Submit" />
+            <small>or press <strong>enter</strong></small>
+          </li>
+          
+        </ul>
+      </form>  
+    </div>
+  </div>
+            
+    <!--news-->
+    <div class="news">
+        <h2>Join our Newsletter</h2>
+        <p style="text-align: center;">Sign up for our email newsletter to get exclusive discounts, updates, and more.</p>
+        <div style="margin-top: 10px; display: flex; flex-direction: column; align-items: center;">
+            <input class="search" type="email" placeholder="Inbox address" style="padding: 8px; width: 600px;">
+            <button style="padding: 8px 16px; cursor: pointer;">
+                Subscribe <i class="fa-solid fa-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <!--footer-->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingText">Nostra</h2>
+                <p>The Standard chunk of Lorem ipsum
+                    used since the 1500s is reprodused
+                    below for those interest</p>
+                <div class="footer-icon-container">
+                    <i class="icon fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="icon fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="icon fa-brands fa-facebook" style="color: #ffffff;"></i>
+                </div>
+            </div>
+        </div>
+        <p class="subtitle">@ 2023 Nostra.com</p>
+    </div>
+
+    <!-- My JavaScript -->
+    <script src="./contact.js"></script>
+</body>

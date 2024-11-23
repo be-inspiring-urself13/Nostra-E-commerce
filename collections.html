@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra-Collections</title>
+    <!-- Google font for Nostra -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Poppins:ital,wght@0,100;1,500&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- My Style -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Sale Offer -->
+    <div class="offer__text" id="offer">
+        Sign Up and GET 20% OFF for your first order <span class="close__button">X</span>
+    </div>
+
+    <!-- Nav Bar -->
+    <div class="navbar">
+        <div class="navbar__s1">
+            <h1 class="s1__title">Nostra</h1>
+        </div>
+        <div class="navbar__s2">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.html#new-arrival" id="new-arrival-link">New Arrivals</a></li>
+                <li><a href="./index.html#most-wanted" id="must-wanted-link">Most Wanted</a></li>
+                <li><a href="./collections.html">Collections</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="navbar-menu-toggle">
+            <i id="side-navbar-activate" class="fa-solid fa-bars" style="color: #010813;"></i>
+       </div>
+    </div>
+
+    <!-- Side Navigation -->
+    <div id="side-nav" class="side-nav">
+        <a href="#" class="close-btn" id="side-navbar-close">&times;</a>
+        <a href="./index.html">Home</a>
+        <a href="./index.html#new-arrival">New Arrivals</a>
+        <a href="./index.html#most-wanted">Most Wanted</a>
+        <a href="./collections.html">Collections</a>
+        <a href="./contact.html">Contact Us</a>
+        </div>
+        </div>
+
+    <!--occasion,colors,arrivals-->
+    <div class="container">
+        <!-- Vertical Line -->
+    <div class="vertical-line"></div>
+
+        <div class="divide-section">
+            <div class="filter-section">
+                <h3 class="filter-section-occasion">Occasion</h3>
+                <div>
+                    <input type="checkbox" name="tags" value="summer"> Summer <br>
+                    <input type="checkbox" name="tags" value="party"> Party <br>
+                    <input type="checkbox" name="tags" value="beach"> Beach 
+                </div>
+    
+                <h3 class="filter-section-colors"> Colors </h3>
+                <div>
+                    <input type="checkbox" name="tags" value="red"> Red <br>
+                    <input type="checkbox" name="tags" value="blue"> Blue <br>
+                    <input type="checkbox" name="tags" value="white"> White <br>
+                    <input type="checkbox" name="tags" value="green"> Green
+                </div>
+    
+                <h3 class="filter-section-arrivals"> Arrivals </h3>
+                <div>
+                    <input type="checkbox" name="tags" value="new"> New <br>
+                    <input type="checkbox" name="tags" value="old"> Old
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--search bar-->
+    <div class="product-section">
+        <form class="navbar-search">
+            <input type="search" placeholder="search" id="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+
+    <!--products--> 
+    <div class="products-row" id="product-container">
+        <div class="products">
+            <img src="./images/shirt__1.jpeg" alt="shirt1">
+            <h2 class="shirt-name">Floral Summer Shirt</h2>
+            <p class="price">₹300</p>
+        </div>   
+        <div class="products">
+            <img src="./images/shirt__2.jpeg" alt="shirt1">
+            <h2 class="shirt-name">Summer Stylish Shirt</h2>
+            <p class="price">₹500</p>
+        </div>
+        <div class="products">
+            <img src="./images/shirt__4.jpeg" alt="shirt1">
+            <h2 class="shirt-name">Floral Summer Shirt</h2>
+            <p class="price">₹500</p>
+        </div>
+        <div class="products">
+            <img src="./images/shirt__3.jpeg" alt="shirt1">
+            <h2 class="shirt-name">Summer Green Shirt</h2>
+            <p class="price">₹500</p>
+        </div>
+        <div class="products">
+            <img src="./images/shirt__5.jpeg" alt="shirt1">
+            <h2 class="shirt-name">Stylish Plain Shirt</h2>
+            <p class="price">₹500</p>
+        </div>
+        <div class="products">
+            <img src="./images/shirt__6.jpeg" alt="shirt1">
+            <h2 class="shirt-name">Party Shirt</h2>
+            <p class="price">₹500</p>
+        </div>
+        <div class="products">
+            <img src="./images/shirt__7.jpeg" alt="shirt1">
+            <h2 class="shirt-name">Beach Summer Shirt</h2>
+            <p class="price">₹500</p>
+        </div>
+        <div class="products">
+            <img src="./images/shirt__8.jpeg" alt="shirt1">
+            <h2 class="shirt-name">Vintage Hawaii Shirt</h2>
+            <p class="price">₹500</p>
+        </div>
+        <div class="products" >
+            <img src="./images/shirt__9.jpeg" alt="shirt1">
+            <h2 class="shirt-name">Strip Shirt</h2>
+            <p class="price">₹500</p>
+        </div>
+    </div>
+    
+    <!--news-->
+    <div class="news-collection" style="margin: 0; transform: none; padding-top: 0; font-size: 40px; margin-top: -180px;">
+        <h2>Join our Newsletter</h2>
+        <p style="text-align: center;">Sign up for our email newsletter to get exclusive discounts, updates, and more.</p>
+        <div style="margin-top: 10px; display: flex; flex-direction: column; align-items: center;">
+            <input  class="search" type="email" placeholder="Enter your email address.." style="padding: 8px; width: 600px;">
+            <button style="padding: 8px 16px; cursor: pointer;">
+                Subscribe <i class="fa-solid fa-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingText">Nostra</h2>
+                <p>The Standard chunk of Lorem ipsum
+                    used since the 1500s is reprodused
+                    below for those interest</p>
+                <div class="footer-icon-container">
+                    <i class="icon fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="icon fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="icon fa-brands fa-facebook" style="color: #ffffff;"></i>
+                </div>
+            </div>
+        </div>
+        <p class="subtitle">@ 2023 Nostra.com</p>
+    </div>
+    
+    <!-- My JavaScript -->
+    <script src="./products.js"></script>
+</body>
